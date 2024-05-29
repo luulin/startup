@@ -6,10 +6,18 @@
     <title>Startup-web</title>
     <link rel="stylesheet" href="asset/styles/style.css">
     <link rel="stylesheet" href="asset/styles/galery.css">
+    <link rel="stylesheet" href="asset/styles/modal.css">
 </head>
 <body>
 <header>
     <nav class="navigation-menu">
+        <button id="myBtn">Open Modal</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Hello</p>
+            </div>
+        </div>
         <p class="logo">S-TECH</p>
         <ul class="nav-links">
             <li><a class="nav-link" href="#section1">Home</a></li>
@@ -158,5 +166,6 @@
 </footer>
 <script src="/asset/scripts/script.js"></script>
 <script src="asset/scripts/gallery.js"></script>
+<script src="asset/scripts/modal.js"></script>
 </body>
 </html>
