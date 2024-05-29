@@ -1,0 +1,813 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --blue-grey: rgba(104, 125, 143, 0.87);
+    --snow: snow;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-weight: bold;
+    color: var(--snow);
+}
+
+.navigation-menu {
+    opacity: 0.9;
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: var(--black);
+    justify-content: right;
+    padding: 1%;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+    margin-top: 1%;
+    margin-right: 2%;
+}
+
+.nav-link {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.big-section {
+    height: 600px;
+    background: url("/asset/img/img-1.png") no-repeat;
+    background-size: cover;
+    padding: 80px 100px 120px 100px;
+}
+
+
+.main-content {
+    font-size: 55px;
+    font-weight: bold;
+    color: var(--white);
+    padding-bottom: 10px;
+}
+
+.main {
+    text-align: right;
+    margin-top: 20%;
+}
+.content {
+    text-align: end;
+    color: var(--white);
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2.content{
+    text-align: left;
+    width: 25em;
+    font-weight: bold;
+}
+
+.navigation-menu, p {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    padding-top: 50px;
+    font-size: 80px;
+}
+h1.main-content {
+    font-size: 70px;
+    color: #ffff;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn{
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgb(182, 133, 255);
+    color: rgb(17, 24, 39);
+    border-radius: 0px;
+    border-color: rgb(182, 133, 255);
+}
+
+.picture-1 {
+    max-width: 35%;
+    margin-top: 15%;
+    margin-left: 10%;
+    float: left;
+}
+
+.prt1 {
+    width: 40%;
+    float: right;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.big-section-2 {
+    height: 790px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    background-color: rgba(3, 13, 23, 0.96);
+}
+
+.big-section-5 {
+    height: 790px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 15%;
+    background-color: rgba(6, 19, 33, 0.99);
+}
+
+.big-section-6 {
+    height: 400px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 15%;
+    background-color: rgb(4, 21, 37);
+}
+
+.last-section {
+    height: 450px;
+    filter: invert(90%) hue-rotate(180deg);
+}
+
+.pictures {
+    margin-top: -10px;
+    padding-left: 5%;
+    width: 70%;
+}
+
+.deco {
+    width: 278%;
+    margin-top: 30%;
+    margin-left: -28%;
+}
+
+.big-section-3 {
+    height: 800px;
+    padding: 5% 10% 20%;
+    background-color: rgba(7, 24, 40, 0.99);
+}
+
+.services{
+    font-size: 45px;
+    margin-left: 1.5%;
+    margin-bottom: 3%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.all{
+    text-align: left;
+    margin-left: 2%;
+}
+
+.all h2 {
+    font-size: 30px;
+    margin-bottom: 5%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.all p{
+    font-size: 23px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text, p {
+    color: white;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-section-4{
+    height: 650px;
+    padding-bottom: 4%;
+    padding-top: 5%;
+    padding-left: 5%;
+    background-color: rgba(5, 24, 40, 0.99);
+}
+
+.about-us {
+    color: white;
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.ab-p p{
+    margin-top: 2%;
+    max-width: 40em;
+    font-size: 2em;
+}
+
+.s-4-ab {
+    margin-left: 6%;
+}
+
+.half-width {
+    width: 40%;
+    float: right;
+    margin-top: 15%;
+    margin-right: 10%;
+}
+
+.photo {
+    width: 90%;
+    margin-top: -23%;
+    border-radius: 10px;
+}
+.part-2 {
+    margin-top: -20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    padding-bottom: 8%;
+    font-style: normal;
+    font-size: 45px;
+    word-spacing: 5px;
+    color: white;
+}
+.p2 {
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    width: 35em;
+    font-family: "Roboto", sans-serif;
+}
+
+.img-3 {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.img-4 {
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.img-5 {
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 3%;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.testimonial {
+    max-width: 500px;
+    padding: 20px;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.alex {
+    border-radius: 100%;
+    max-width: 22%;
+}
+.emma {
+    border-radius: 100%;
+    max-width: 22%;
+}
+
+
+.pos-a {
+    text-align: left;
+}
+
+.testimonial-content {
+    padding: 20px;
+}
+
+.quote {
+    width: 33em;
+    text-align: left;
+    font-size: 35px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+}
+
+.author, p{
+    font-size: 35px;
+}
+
+.author {
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-menu {
+    height: 200px;
+    background-color: #141316;
+}
+
+.last-section {
+    width: 100%;
+}
+
+#prevTestimonial {
+    margin-left: 10%;
+    margin-top: 13%;
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+#nextTestimonial {
+    margin-right: 10%;
+    margin-top: -13%;
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#prevTestimonial {
+    left: 20px;
+    margin-top: 11%;
+}
+
+#nextTestimonial {
+    right: 20px;
+}
+
+.log{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 3em;
+    color: white;
+}
+.footer{
+     display: flex;
+}
+
+@media screen and (max-width: 1440px) {
+    .navigation-menu{
+        position: fixed;
+    }
+    .picture-1{
+        max-width: 40%;
+        position: relative;
+        border-radius: 2%;
+        right: 3%;
+        margin-top: 22%;
+    }
+    .main-content {
+        font-size: 3em;
+    }
+    .content {
+        font-size: 2em;
+        text-align: left;
+    }
+    .prt1 {
+        float: right;
+        position: relative;
+        left: 4%;
+    }
+    .big-section {
+        width: 110%;
+    }
+    .p2 {
+        font-size: 1.6em;
+        width: 24em;
+    }
+    .part-2 {
+        font-size: 2.8em;
+    }
+    .big-section-2 {
+        width: 113.9%;
+    }
+    .big-section-3 {
+        margin-top: -10%;
+        width: 103.9%;
+    }
+    .big-section-4{
+        width: 118.9%;
+    }
+    .big-section-5 {
+        width: 113.9%;
+    }
+    .big-section-6 {
+        width: 113.9%;
+    }
+    #prevTestimonial{
+        margin-top: 5.5em;
+    }
+    #nextTestimonial {
+        position: relative;
+        left: 26em;
+        top: -4.6em;
+    }
+    .last-section {
+        width: 123.9%;
+    }
+    .footer-menu {
+        width: 123.9%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navigation-menu{
+        position: fixed;
+    }
+    .picture-1{
+        max-width: 40%;
+        position: relative;
+        border-radius: 2%;
+        right: 3%;
+        margin-top: 22%;
+    }
+    .main-content {
+        font-size: 3em;
+    }
+    .content {
+        font-size: 2em;
+        text-align: left;
+    }
+    .prt1 {
+        float: right;
+        position: relative;
+        left: 4%;
+    }
+    .big-section {
+        width: 120%;
+    }
+    .p2 {
+        font-size: 1.6em;
+        width: 24em;
+    }
+    .part-2 {
+        font-size: 2.8em;
+    }
+    .big-section-2 {
+        width: 110%;
+    }
+    .big-section-3 {
+        margin-top: -10%;
+        width: 100%;
+    }
+    .big-section-4{
+        width: 115%;
+    }
+    .big-section-5 {
+        width: 110%;
+    }
+    .big-section-6 {
+        width: 110%;
+    }
+    #prevTestimonial{
+        margin-top: 5em;
+    }
+    #nextTestimonial {
+        position: relative;
+        left: 20em;
+        top: -4.6em;
+    }
+    .last-section {
+        width: 120%;
+    }
+    .footer-menu {
+        width: 120%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .big-section {
+        width: 170%;
+    }
+    .big-section-2 {
+        width: 160%;
+    }
+    .big-section-3 {
+        width: 150%;
+        height: 500%;
+    }
+    .big-section-4 {
+        width: 165%;
+    }
+    .big-section-5 {
+        width: 160%;
+    }
+    .big-section-6 {
+        width: 160%;
+    }
+    .s-4-ab{
+        justify-items: center;
+    }
+    .pictures {
+        margin-top: 10%;
+        margin-left: 7%;
+    }
+    #nextTestimonial {
+        margin-right: 60%;
+    }
+    #prevTestimonial {
+        margin-top: 27.5%;
+    }
+    .quote {
+        font-size: 1.8em;
+    }
+    .last-section {
+        width: 170%;
+    }
+    .footer-menu {
+        width: 170%;
+    }
+    .photo {
+        margin-left: 9%;
+        max-width: 93%;
+    }
+}
+@media  screen and (max-width: 450px){
+    .big-section {
+        width: 295%;
+    }
+    .picture-1 {
+        margin-top: 30%;
+    }
+    .big-section-2 {
+        width: 285%;
+    }
+    .big-section-3 {
+        width: 275%;
+    }
+    .big-section-4 {
+        width: 290%;
+    }
+    .big-section-5 {
+        width: 285%;
+    }
+    .big-section-6 {
+        width: 285%;
+    }
+    .last-section {
+        width: 295%;
+    }
+    .footer-menu {
+        width: 295%;
+    }
+    #prevTestimonial {
+        margin-top: 52%;
+    }
+    #nextTestimonial {
+        margin-right: 75%;
+    }
+    .all h2 {
+        width: 1px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .big-section {
+        width: 260.6%;
+    }
+    .picture-1 {
+        margin-top: 30%;
+    }
+    .big-section-2 {
+        width: 304%;
+    }
+    .big-section-3 {
+        width: 294%;
+    }
+    .big-section-4 {
+        width: 309%;
+    }
+    .big-section-5 {
+        width: 304%;
+    }
+    .big-section-6 {
+        width: 304%;
+    }
+    .last-section {
+        width: 314%;
+    }
+    .footer-menu {
+        width: 314%;
+    }
+    .quote{
+        font-size: 1.5em;
+    }
+    #prevTestimonial {
+        margin-top: 45%;
+        margin-left: 20%;
+    }
+    #nextTestimonial {
+        margin-top: 8%;
+        margin-left: 15%;
+    }
+    .author{
+        font-size: 1.6em;
+    }
+    .pos-a {
+        width: 65%;
+        margin-bottom: 2%;
+    }
+    .all h2 {
+        width: 1px;
+    }
+    .part-2 {
+        font-size: 2.4em;
+        margin-top: 8%;
+        margin-left: 10%;
+        margin-bottom: -3%;
+    }
+    .p2 {
+        margin-left: 10%;
+        font-size: 1.3em;
+    }
+    .ab-p p{
+        font-size: 1.6em;
+        width: 38em;
+        margin-left: -2%;
+    }
+    h2.about-us{
+        font-size: 3em;
+        margin-left: -2%;
+    }
+    .photo {
+        width: 85%;
+        margin-top: 1%;
+        margin-left: 18%;
+    }
+    .half-width{
+    }
+}
+
+@media screen and (max-width: 375px){
+    .navigation-menu{
+        width: 100%;
+        height: 7%;
+    }
+    .big-section{
+        width: 47%;
+        height: 400px;
+    }
+    .logo{
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+    .nav-links {
+        font-size: 10px;
+    }
+    h1.main-content{
+        font-size: 40px;
+    }
+    h2.content{
+        font-size: 25px;
+        width: 5em;
+        margin-left: 15%;
+    }
+    .contents{
+        display: flex;
+        margin-left: -20%;
+        margin-top: 20%;
+    }
+    .big-section-2 {
+        width: 90.1%;
+        height: 660px;
+    }
+    .part-2{
+        font-size: 25px;
+        width: 10em;
+        font-weight: bolder;
+        margin-bottom: 10%;
+    }
+    .p2{
+        font-size: 15px;
+        width: 15em;
+    }
+    .half-width {
+        display: flex;
+        flex-direction: column;
+    }
+    .photo {
+        margin-top: 350%;
+        margin-left: -70%;
+        width: 120%;
+    }
+    .big-section-3{
+        width: 80%;
+    }
+    .services{
+        font-size: 20px;
+        margin-bottom: 5%;
+    }
+    .all h2{
+        font-size: 15px;
+    }
+    .all p{
+        font-size: 10px;
+    }
+    .text{
+        display: flex;
+    }
+    .big-section-4{
+        width: 95%;
+    }
+    h2.about-us{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .ab-p p{
+        font-size: 15px;
+        width: 15em;
+    }
+    .big-section-5{
+        width: 90%;
+        height: 400px;
+    }
+    .big-section-6{
+        width: 90%;
+        height: 300px;
+    }
+    .testimonial-content{
+        width: 80%;
+        height: 300px;
+    }
+    .quote{
+        font-size: 11px;
+        width: 20em;
+        position: relative;
+        right: 20%;
+    }
+    .alex{
+        position: relative;
+        right: 30%;
+    }
+    #prevTestimonial {
+        font-size: 20px;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+    #nextTestimonial{
+        position: relative;
+        font-size: 20px;
+        left: 30%;
+        margin-bottom: -50%;
+        margin-right: 1%;
+    }
+    .author{
+        font-size: 15px;
+        position: relative;
+        right: 20%;
+    }
+    .last-section{
+        width: 99.7%;
+    }
+    .footer-menu{
+        width: 99.7%;
+        height: 10%;
+    }
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup-web</title>
+    <link rel="stylesheet" href="asset/styles/style.css">
+    <link rel="stylesheet" href="asset/styles/galery.css">
+</head>
+<body>
+<header>
+    <nav class="navigation-menu">
+        <p class="logo">S-TECH</p>
+        <ul class="nav-links">
+            <li><a class="nav-link" href="#section1">Home</a></li>
+            <li><a class="nav-link" href="#section2">Work</a></li>
+            <li><a class="nav-link" href="#section3">Services</a></li>
+            <li><a class="nav-link" href="#section4">About</a></li>
+            <li><a class="nav-link" href="#section5">Pictures</a></li>
+            <li><a class="nav-link" href="#section6">Review</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="section1" class="big-section">
+    <div class="main">
+        <h1 class="main-content">
+            S-TECH
+        </h1>
+        <div class="contents">
+            <h2 class="content">
+                Explore our diverse courses and find your passion.
+            </h2>
+            <h2 class="content">
+                Learn at your pace, anytime, anywhere.
+            </h2>
+        </div>
+    </div>
+</section>
+<section id="section2" class="big-section-2">
+    <div class="half-width">
+        <img class="photo" src="/asset/img/img-2.png" alt="image" />
+    </div>
+    <div class="half-width">
+        <h2 class="part-2">Unlock your potential with nwm's Online Learning</h2>
+        <p class="p2">
+            Expand your knowledge and skills with nwm's comprehensive online learning platform.
+            Based in Zlín, Česko, we offer a wide range of courses designed to help you succeed
+            in today's competitive world. Whether you're looking to boost your career or
+            pursue a new passion, nwm is your trusted partner in lifelong learning.
+        </p>
+    </div>
+</section>
+<section id="section3" class="big-section-3">
+    <h2 class="services">
+        Services
+    </h2>
+    <div class="gallery">
+
+        <div class="text">
+            <div class="all">
+                <h2>
+                    Programming Courses for Beginners
+                </h2>
+                <p>
+                    Learn a new language from scratch with beginner-friendly courses.
+                </p>
+            </div>
+            <div class="all">
+                <h2>
+                    Professional Development Workshops
+                </h2>
+                <p>
+                    Sharpen your skills with tailored workshops designed for growth.
+                </p>
+            </div>
+            <div class="all">
+                <h2>
+                    Specialized Certification Programs
+                </h2>
+                <p>
+                    Get certified in specialized fields to enhance your career prospects.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section4" class="big-section-4">
+    <div class="s-4-ab">
+        <h2 class="about-us">About us</h2>
+        <div class="ab-p">
+            <p>Welcome to nwm, an online learning platform based in Zlín, Česko. We are passionate about
+                providing high-quality educational resources to help individuals expand their knowledge and skills.
+            </p>
+            <p>
+                At nwm, we believe that learning should be accessible to everyone, regardless of their location
+                or background. That's why we offer a wide range of courses and learning materials in various
+                subjects, all designed to be engaging and interactive. Whether you're a student looking
+                to supplement your studies or a professional seeking to enhance your career, we have something
+                for you. Join us on this educational journey and unlock your full potential with nwm.
+            </p>
+        </div>
+    </div>
+</section>
+<section id="section5" class="big-section-5">
+    <h2 class="gallery-heading">Galerie</h2>
+    <img class="gallery-preview" src="/asset/img/pic1.jpg" alt="programing">
+    <button class="btn btn-next" onclick="nextImage()">Next</button>
+    <button class="btn btn-prev" onclick="prevImage()">Previous</button>
+    <div class="galery">
+        <img class="gallery-pic" src="/asset/img/pic1.jpg" alt="programing">
+        <img src="/asset/img/pic2.jpg" alt="">
+        <img src="/asset/img/pic3.jpg" alt="">
+        <img src="/asset/img/pic4.jpg" alt="">
+    </div>
+</section>
+<section id="section6" class="big-section-6">
+    <div class="testimonial">
+        <button id="prevTestimonial" onclick="prevTestimonial()"><</button>
+        <div class="testimonial-content">
+            <div class="pos-a"><img class="alex" src="/asset/img/img-8.png" alt="alex"/></div>
+            <p class="quote">nwm's online learning platform is exceptional! The courses are well-structured
+                and engaging, and the instructors are knowledgeable and supportive. I appreciate the opportunity
+                to expand my skills and knowledge through nwm.
+                Thank you for providing such a valuable learning experience!</p>
+            <p class="author">- Alex</p>
+        </div>
+        <div class="testimonial-content" style="display: none;">
+            <div class="pos-a"><img class="emma" src="/asset/img/img-7.png" alt="emma"/></div>
+            <p class="quote">nwm is an amazing platform for online learning!
+                Their courses are comprehensive and well-structured, making it easy
+                to grasp new concepts. The instructors are knowledgeable and provide excellent support. I am
+                grateful for the opportunity to expand my knowledge with nwm.
+                Thank you for the great experience!</p>
+            <p class="author">- Emma</p>
+        </div>
+        <div class="testimonial-content" style="display: none;">
+            <div class="pos-a"><img class="emma" src="/asset/img/img-7.png" alt="Oliver"/></div>
+            <p class="quote">nwm's online learning platform is exceptional! The courses are well-structured
+                and engaging, and the instructors are knowledgeable and supportive.
+                I'm grateful for the valuable skills I've gained through their platform.
+                Thank you, nwm, for providing such a wonderful learning experience!</p>
+            <p class="author">- Oliver</p>
+        </div>
+        <button id="nextTestimonial" onclick="nextTestimonial()">></button>
+    </div><
+</section>
+<section class="last-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83372.42823791728!2d17.594106886904292!3d49.23112529652463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2zWmzDrW4!5e0!3m2!1scs!2scz!4v1716365227927!5m2!1scs!2scz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<footer>
+    <nav class="footer-menu">
+        <nav class="footer">
+            <p class="log">S-TECH</p>
+        </nav>
+    </nav>
+</footer>
+<script src="/asset/scripts/script.js"></script>
+<script src="asset/scripts/gallery.js"></script>
+</body>
+</html>
