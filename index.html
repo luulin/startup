@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/modal.css">
+    <link rel="stylesheet" href="assets/styles/gallery.css">
+    <link rel="stylesheet" href="assets/styles/testimonial.css">
+</head>
+
+<body>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Let´s get started!</p>
+    </div>
+
+</div>
+
+<header>
+    <div class="menu">
+        <a href="#" class="logo">S-M</a>
+        <button class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <button id="myBtn">Open Modal</button>
+        <div class="right-menu" id="menu">
+            <a class="active" href="#">Home</a>
+            <a href="#about">About us</a>
+            <a href="#gallery">Our Work</a>
+            <a href="#mission">Mission</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Recension</a>
+        </div>
+    </div>
+    <img src="assets/img/main-foto.png" class="main-foto" id="header-foto" alt="">
+    <div class="up-text">
+        <h1>
+            Welcome to Smart Home Solution
+        </h1>
+        <h4>Making your home smarter and safer</h4>
+        <button class="scroll-button" onclick="scrollDown()">Scroll</button>
+    </div>
+</header>
+<h2 id="gallery"  class="gallery-heading">Our masterpieces</h2>
+<img class="gallery-preview" src="assets/img/pic1.jpg" alt="security">
+<button class="btn btn-next" onclick="nextImage()">Next</button>
+<button class="btn btn-prev" onclick="prevImage()">Previous</button>
+<div class="gallery">
+    <img class="gallery-pic" src="assets/img/pic1.jpg" alt="security">
+    <img src="assets/img/pic2.jpg" alt="">
+    <img src="assets/img/pic3.jpg" alt="">
+    <img src="assets/img/pic4.jpg" alt="">
+    <img src="assets/img/pic5.jpg" alt="">
+    <img src="assets/img/pic6.jpg" alt="">
+</div>
+<div id="about" class="margin"></div>
+<div class="about">
+    <h2>About us</h2>
+    <p>
+        S-M stands at the intersection of technology and lifestyle, dedicated to enhancing the way people interact with their homes.</p>
+    <p>
+        With a passion for innovation and a commitment to excellence, we strive to redefine the concept of home living through our range of smart home products and services.    </p>
+</div>
+<div id="mission" class="nothing"></div>
+<div class="section1">
+    <div class="left-side">
+        <h2>Our mission</h2>
+        <p>
+            Our mission at S-M is to empower homeowners with smart solutions that simplify daily routines, elevate comfort, and enhance overall quality of life. We believe in leveraging the latest advancements in automation, IoT, and AI to create homes that are not just functional, but truly intelligent and adaptive to the needs of their occupants.        </p>
+        <a class="button" href="#location">LOCATION</a>
+    </div>
+
+    <div class="right-side">
+        <img src="assets/img/new.jpg" class="new" alt="picture">
+    </div>
+</div>
+<div id="services" class="nothing"></div>
+<div class="section2">
+    <h2>Services</h2>
+    <div class="boxes">
+        <div class="box">
+            <h3>Smart Home Design</h3>
+            <p>Our expert team of designers works closely with clients to understand their lifestyle, preferences.</p>
+        </div>
+        <div class="box">
+            <h3>Installation and Integration</h3>
+            <p>Specializes in the seamless installation and integration of smart home devices and systems. </p>
+        </div>
+        <div class="box">
+            <h3>Home Automation Solutions</h3>
+            <p>We offer advanced automation solutions that allow you to control various aspects of your home, such as lighting, climate control, security, and entertainment, with the touch of a button or voice command.</p>
+        </div>
+        <div class="box">
+            <h3>Maintenance and Support</h3>
+            <p>We offer ongoing maintenance and support services to ensure that your smart home systems continue to operate efficiently. Our team is available to address any issues or concerns promptly.</p>
+        </div>
+    </div>
+</div>
+<div id="testimonials" class="nothing"></div>
+<div class="section3">
+    <div class="testimonial">
+        <img src="assets/img/img1.png" id="img1" alt="">
+        <p class="review">
+            S-M offers a curated selection of state-of-the-art smart home devices and appliances, carefully chosen for their quality, performance, and reliability. From smart thermostats and security cameras to lighting controls and entertainment systems, we provide everything you need to transform your house into a smart home.
+        <p class="author">- Alan</p>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/img2.png" id="img2" alt="">
+        <p class="review">
+            Our team of experts is dedicated to providing personalized assistance and guidance at every step of your smart home journey. Whether you're just getting started or looking to expand your existing setup, we're here to help you navigate the world of smart home technology with confidence and ease.
+        <p class="author">- Courtney</p>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/img1.png" id="img3" alt="">
+        <p class="review">
+            We understand that every home is unique, which is why we offer customized solutions tailored to your specific needs and preferences. Whether you're focused on energy efficiency, home security, or convenience, we'll work closely with you to design a smart home ecosystem that aligns with your lifestyle and goals.
+        <p class="author">- Luka</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+<div id="location" class="nothing"></div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83372.4282378182!2d17.594106796554783!3d49.23112529658327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2zWmzDrW4!5e0!3m2!1scs!2scz!4v1716311416563!5m2!1scs!2scz" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<script src="assets/scripts/testimonial.js"></script>
+<script src="assets/scripts/modal.js"></script>
+<script src="assets/scripts/gallery.js"></script>
+<script src="assets/scripts/scrollDown.js"></script>
+</body>
+</html>
