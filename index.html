@@ -12,29 +12,15 @@
 </head>
 
 <body>
-
-<div id="myModal" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <p>Let´s get started!</p>
-    </div>
-
-</div>
-
 <header>
     <div class="menu">
         <a href="#" class="logo">S-M</a>
-        <button class="menu-toggle">
-            <i class="fa-solid fa-bars"></i>
-        </button>
-        <button id="myBtn">Open Modal</button>
         <div class="right-menu" id="menu">
-            <a class="active" href="#">Home</a>
-            <a href="#about">About us</a>
-            <a href="#gallery">Our Work</a>
-            <a href="#mission">Mission</a>
-            <a href="#services">Services</a>
-            <a href="#testimonials">Recension</a>
+            <a class="nav-link nav-link-home" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#mission">Mission</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#testimonials">Recension</a>
         </div>
     </div>
     <img src="assets/img/main-foto.png" class="main-foto" id="header-foto" alt="">
@@ -46,7 +32,7 @@
         <button class="scroll-button" onclick="scrollDown()">Scroll</button>
     </div>
 </header>
-<h2 id="gallery"  class="gallery-heading">Our masterpieces</h2>
+<h2 id="gallery"  class="gallery-heading">Gallery</h2>
 <img class="gallery-preview" src="assets/img/pic1.jpg" alt="security">
 <button class="btn btn-next" onclick="nextImage()">Next</button>
 <button class="btn btn-prev" onclick="prevImage()">Previous</button>
@@ -69,10 +55,23 @@
 <div id="mission" class="nothing"></div>
 <div class="section1">
     <div class="left-side">
-        <h2>Our mission</h2>
+        <h2>Mission</h2>
         <p>
             Our mission at S-M is to empower homeowners with smart solutions that simplify daily routines, elevate comfort, and enhance overall quality of life. We believe in leveraging the latest advancements in automation, IoT, and AI to create homes that are not just functional, but truly intelligent and adaptive to the needs of their occupants.        </p>
         <a class="button" href="#location">LOCATION</a>
+        <button class="button" id="myBtn">MORE INFO</button>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                    Call us for more info.
+                </p>
+                <p>
+                    Phone number: +420 121 333 122
+                </p>
+            </div>
+
+        </div>
     </div>
 
     <div class="right-side">

@@ -44,7 +44,6 @@ body {
     text-align: center;
     padding: 12px;
     text-decoration: none;
-    font-size: 20px;
     line-height: 25px;
     border-radius: 4px;
 }
@@ -60,14 +59,14 @@ body {
     color: var(--white);
 }
 
-.menu a.active {
-    background-color: var(--white);
-    color: var(--black);
+.menu a.nav-link {
+    color: var(--white);
 }
 
 
 .right-menu {
     float: right;
+    font-size: 20px;
 }
 
 
@@ -94,12 +93,17 @@ body {
 }
 
 .left-side {
+    height: 550px;
     margin-top: 5%;
     display: inline-block;
     margin-right: 60%;
     position: absolute;
+}
 
-
+.nav-link-home {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .right-side {
@@ -122,7 +126,13 @@ body {
     border-style: none;
     border-radius: 5px;
     font-weight: bold;
+    font-size: 25px;
     top: 63%;
+}
+
+#myBtn{
+    margin-left: 4%;
+    text-decoration: underline;
 }
 
 .scroll-button {
@@ -177,7 +187,7 @@ body {
 
 .section3 {
     position: relative;
-    border: solid 0px;
+    border: solid 0;
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 30%;
@@ -217,31 +227,17 @@ body {
         float: none;
     }
 
-    .menu-toggle {
-        background: none;
-        border: none;
-        display: inline-block;
-        color: var(--white);
-
-    }
-
     .section1 {
         text-align: center;
         float: none;
     }
 
     .menu .right-menu {
-        display: none;
+        display: flex;
     }
 
     .menu .right-menu.show {
         display: block;
-    }
-
-    .fa-bars {
-        margin-left: 20%;
-        font-size: 20px;
-        color: var(--white);
     }
 
     .about {
@@ -261,7 +257,6 @@ body {
     .box {
         width: auto;
     }
-
     .section3 {
         margin-right: 6%;
     }
@@ -301,9 +296,34 @@ body {
     h4{
         font-size: 1em;
     }
-    #myBtn{
-        position: absolute;
-        top: 5%;
-        left: 7%;
+    p{
+        font-size: 25px;
+    }
+    .right-menu {
+        font-size: 0.85em
+    }
+}
+
+@media screen and (max-width: 400px){
+    .right-menu {
+        font-size: 0.7em
+    }
+}
+
+@media screen and (max-width: 350px){
+    .right-menu {
+        font-size: 0.6em
+    }
+}
+
+@media screen and (max-width: 330px){
+    .right-menu {
+        font-size: 0.55em
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .right-menu {
+        font-size: 0.5em
     }
 }
