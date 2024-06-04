@@ -3,169 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup-web</title>
-    <link rel="stylesheet" href="asset/styles/style.css">
-    <link rel="stylesheet" href="asset/styles/galery.css">
-    <link rel="stylesheet" href="asset/styles/modal.css">
+    <title>Smart Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/modal.css">
+    <link rel="stylesheet" href="assets/styles/gallery.css">
+    <link rel="stylesheet" href="assets/styles/testimonial.css">
 </head>
+
 <body>
 <header>
-    <nav class="navigation-menu">
-        <button id="myBtn">Open Modal</button>
+    <div class="menu">
+        <a href="#" class="logo">S-M</a>
+        <div class="right-menu" id="menu">
+            <a class="nav-link nav-link-home" href="#">Home</a>
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#mission">Mission</a>
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#testimonials">Recension</a>
+        </div>
+    </div>
+    <img src="assets/img/main-foto.png" class="main-foto" id="header-foto" alt="">
+    <div class="up-text">
+        <h1>
+            Welcome to Smart Home Solution
+        </h1>
+        <h4>Making your home smarter and safer</h4>
+        <button class="scroll-button" onclick="scrollDown()">Scroll</button>
+    </div>
+</header>
+<div id="about" class="margin"></div>
+<div class="about">
+    <h2>About us</h2>
+    <p>
+        S-M stands at the intersection of technology and lifestyle, dedicated to enhancing the way people interact with their homes.</p>
+    <p>
+        With a passion for innovation and a commitment to excellence, we strive to redefine the concept of home living through our range of smart home products and services.    </p>
+</div>
+<div id="mission" class="nothing"></div>
+<div class="section1">
+    <div class="left-side">
+        <h2>Mission</h2>
+        <p>
+            Our mission at S-M is to empower homeowners with smart solutions that simplify daily routines, elevate comfort, and enhance overall quality of life. We believe in leveraging the latest advancements in automation, IoT, and AI to create homes that are not just functional, but truly intelligent and adaptive to the needs of their occupants.        </p>
+        <a class="button" href="#location">LOCATION</a>
+        <button class="button" id="myBtn">MORE INFO</button>
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <p>Hello</p>
-            </div>
-        </div>
-        <p class="logo">S-TECH</p>
-        <ul class="nav-links">
-            <li><a class="nav-link" href="#section1">Home</a></li>
-            <li><a class="nav-link" href="#section2">Work</a></li>
-            <li><a class="nav-link" href="#section3">Services</a></li>
-            <li><a class="nav-link" href="#section4">About</a></li>
-            <li><a class="nav-link" href="#section5">Pictures</a></li>
-            <li><a class="nav-link" href="#section6">Review</a></li>
-        </ul>
-    </nav>
-</header>
-<section id="section1" class="big-section">
-    <div class="main">
-        <h1 class="main-content">
-            S-TECH
-        </h1>
-        <div class="contents">
-            <h2 class="content">
-                Explore our diverse courses and find your passion.
-            </h2>
-            <h2 class="content">
-                Learn at your pace, anytime, anywhere.
-            </h2>
-        </div>
-    </div>
-</section>
-<section id="section2" class="big-section-2">
-    <div class="half-width">
-        <img class="photo" src="/asset/img/img-2.png" alt="image" />
-    </div>
-    <div class="half-width">
-        <h2 class="part-2">Unlock potential with s-tech Online Learning</h2>
-        <p class="p2">
-            Expand your knowledge and skills with s-tech comprehensive online learning platform.
-            Based in Zlín, Česko, we offer a wide range of courses designed to help you succeed
-            in today's competitive world. Whether you're looking to boost your career or
-            pursue a new passion, s-tech is your trusted partner in lifelong learning.
-        </p>
-    </div>
-</section>
-<section id="section3" class="big-section-3">
-    <h2 class="services">
-        Services
-    </h2>
-    <div class="gallery">
-        <img class="img-3" src="/asset/img/img-3.png" alt="join-us">
-        <img class="img-4" src="/asset/img/img-4.png" alt="laptop">
-        <img class="img-5" src="/asset/img/img-5.jfif" alt="study">
-        <div class="text">
-            <div class="all">
-                <h2>
-                    Programming Courses for Beginners
-                </h2>
                 <p>
-                    Learn a new language from scratch with beginner-friendly courses.
+                    Call us for more info.
+                </p>
+                <p>
+                    Phone number: +420 121 333 122
                 </p>
             </div>
-            <div class="all">
-                <h2>
-                    Professional Development Workshops
-                </h2>
-                <p>
-                    Sharpen your skills with tailored workshops designed for growth.
-                </p>
-            </div>
-            <div class="all">
-                <h2>
-                    Specialized Certification Programs
-                </h2>
-                <p>
-                    Get certified in specialized fields to enhance your career prospects.
-                </p>
-            </div>
+
         </div>
     </div>
-</section>
-<section id="section4" class="big-section-4">
-    <div class="s-4-ab">
-        <h2 class="about-us">About us</h2>
-        <div class="ab-p">
-            <p>Welcome to s-tech, an online learning platform based in Zlín, Česko. We are passionate about
-                providing high-quality educational resources to help individuals expand their knowledge and skills.
-            </p>
-            <p>
-                At s-tech, we believe that learning should be accessible to everyone, regardless of their location
-                or background. That's why we offer a wide range of courses and learning materials in various
-                subjects, all designed to be engaging and interactive. Whether you're a student looking
-                to supplement your studies or a professional seeking to enhance your career, we have something
-                for you. Join us on this educational journey and unlock your full potential with s-tech.
-            </p>
+
+    <div class="right-side">
+        <img src="assets/img/new.jpg" class="new" alt="picture">
+    </div>
+</div>
+<div id="services" class="nothing"></div>
+<div class="section2">
+    <h2>Services</h2>
+    <div class="boxes">
+        <div class="box">
+            <h3>Smart Home Design</h3>
+            <p>Our expert team of designers works closely with clients to understand their lifestyle, preferences.</p>
+        </div>
+        <div class="box">
+            <h3>Installation and Integration</h3>
+            <p>Specializes in the seamless installation and integration of smart home devices and systems. </p>
+        </div>
+        <div class="box">
+            <h3>Maintenance and Support</h3>
+            <p>We offer ongoing maintenance services to ensure that your smart home systems continue to operate efficiently.</p>
         </div>
     </div>
-</section>
-<section id="section5" class="big-section-5">
-    <h2 class="gallery-heading">Galerie</h2>
-    <img class="gallery-preview" src="/asset/img/pic1.jpg" alt="programing">
-    <button class="btn btn-next" onclick="nextImage()">Next</button>
-    <button class="btn btn-prev" onclick="prevImage()">Previous</button>
-    <div class="galery">
-        <img class="gallery-pic" src="/asset/img/pic1.jpg" alt="programing">
-        <img src="/asset/img/pic2.jpg" alt="">
-        <img src="/asset/img/pic3.jpg" alt="">
-        <img src="/asset/img/pic4.jpg" alt="">
-    </div>
-</section>
-<section id="section6" class="big-section-6">
+</div>
+<h2 id="gallery"  class="gallery-heading">Photos</h2>
+<img class="gallery-preview" src="assets/img/pic1.jpg" alt="security">
+<button class="btn-next" onclick="nextImage()">></button>
+<button class="btn btn-prev" onclick="prevImage()"><</button>
+<div class="gallery">
+    <img class="gallery-pic" src="assets/img/pic1.jpg" alt="security">
+    <img src="assets/img/pic2.jpg" alt="">
+    <img src="assets/img/pic3.jpg" alt="">
+    <img src="assets/img/pic4.jpg" alt="">
+    <img src="assets/img/pic5.jpg" alt="">
+    <img src="assets/img/pic6.jpg" alt="">
+</div>
+<div id="testimonials" class="nothing"></div>
+<div class="section3">
     <div class="testimonial">
-        <button id="prevTestimonial" onclick="prevTestimonial()"><</button>
-        <div class="testimonial-content">
-            <div class="pos-a"><img class="alex" src="/asset/img/img-8.png" alt="alex"/></div>
-            <p class="quote">s-tech online learning platform is exceptional! The courses are well-structured
-                and engaging, and the instructors are knowledgeable and supportive. I appreciate the opportunity
-                to expand my skills and knowledge through s-tech.
-                Thank you for providing such a valuable learning experience!</p>
-            <p class="author">- Alex</p>
-        </div>
-        <div class="testimonial-content" style="display: none;">
-            <div class="pos-a"><img class="emma" src="/asset/img/img-7.png" alt="emma"/></div>
-            <p class="quote">s-tech is an amazing platform for online learning!
-                Their courses are comprehensive and well-structured, making it easy
-                to grasp new concepts. The instructors are knowledgeable and provide excellent support. I am
-                grateful for the opportunity to expand my knowledge with nwm.
-                Thank you for the great experience!</p>
-            <p class="author">- Emma</p>
-        </div>
-        <div class="testimonial-content" style="display: none;">
-            <div class="pos-a"><img class="emma" src="/asset/img/img-7.png" alt="Oliver"/></div>
-            <p class="quote">s-tech online learning platform is exceptional! The courses are well-structured
-                and engaging, and the instructors are knowledgeable and supportive.
-                I'm grateful for the valuable skills I've gained through their platform.
-                Thank you, nwm, for providing such a wonderful learning experience!</p>
-            <p class="author">- Oliver</p>
-        </div>
-        <button id="nextTestimonial" onclick="nextTestimonial()">></button>
-    </div><
-</section>
-<section class="last-section">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83372.42823791728!2d17.594106886904292!3d49.23112529652463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2zWmzDrW4!5e0!3m2!1scs!2scz!4v1716365227927!5m2!1scs!2scz" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-<footer>
-    <nav class="footer-menu">
-        <nav class="footer">
-            <p class="log">S-TECH</p>
-        </nav>
-    </nav>
-</footer>
-<script src="/asset/scripts/script.js"></script>
-<script src="asset/scripts/gallery.js"></script>
-<script src="asset/scripts/modal.js"></script>
+        <img src="assets/img/img1.png" id="img1" alt="Alan">
+        <p class="review">
+            S-M offers a curated selection of state-of-the-art smart home devices and appliances, carefully chosen for their quality, performance, and reliability. From smart thermostats and security cameras to lighting controls and entertainment systems, we provide everything you need to transform your house into a smart home.
+        <p class="author">- Alan</p>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/img2.png" id="img2" alt="Courtney">
+        <p class="review">
+            Our team of experts is dedicated to providing personalized assistance and guidance at every step of your smart home journey. Whether you're just getting started or looking to expand your existing setup, we're here to help you navigate the world of smart home technology with confidence and ease.
+        <p class="author">- Courtney</p>
+    </div>
+    <div class="testimonial">
+        <img src="assets/img/img1.png" id="img3" alt="Luka">
+        <p class="review">
+            We understand that every home is unique, which is why we offer customized solutions tailored to your specific needs and preferences. Whether you're focused on energy efficiency, home security, or convenience, we'll work closely with you to design a smart home ecosystem that aligns with your lifestyle and goals.
+        <p class="author">- Luka</p>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</div>
+<div id="location" class="nothing"></div>
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83372.4282378182!2d17.594106796554783!3d49.23112529658327!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130cad4c888e0d%3A0x418d4c16a8ac214f!2zWmzDrW4!5e0!3m2!1scs!2scz!4v1716311416563!5m2!1scs!2scz" width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<script src="assets/scripts/testimonial.js"></script>
+<script src="assets/scripts/modal.js"></script>
+<script src="assets/scripts/gallery.js"></script>
+<script src="assets/scripts/scrollDown.js"></script>
 </body>
 </html>

@@ -1,0 +1,75 @@
+:root{
+    --white: #ffffff;
+    --black: #000000;
+    --grey: hsl(213, 9%, 39%);
+    --light_grey: #888;
+    --morelight_grey: #bbb;
+}
+
+.testimonial {
+    margin-top: 8%;
+    text-align: left;
+    padding-left: 6%;
+    font-size: 30px;
+}
+
+#img1, #img2, #img3{
+    width: 10%;
+}
+
+.prev, .next {
+    top: 75%;
+    cursor: pointer;
+    position: absolute;
+    color: var(--white);
+    width: auto;
+    font-weight: bold;
+    font-size: 35px;
+    margin-right: 10%;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.dot-container {
+    text-align: left;
+    padding-left: 6%;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: var(--morelight_grey);
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s;
+}
+
+
+.active, .dot:hover {
+    background-color: var(--light_grey);
+}
+
+@media screen and (max-width: 500px){
+    .review {
+        font-size: 20px;
+    }
+    .author {
+        font-size: 22px;
+    }
+    .prev {
+        left: -1%;
+    }
+}
